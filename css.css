@@ -53,6 +53,12 @@ header{
 
 .pokeList{
 	font-size: 30px;
+	color: white;
+}
+
+.pokeList:hover{
+	text-decoration: underline;
+	color: black;
 }
 
 .pokeList:hover{
