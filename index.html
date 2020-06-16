@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Pokedex</title>
+	<link rel="stylesheet" href="css.css">
+	<link href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+	<header>
+		<h1 class="center">Pokedex</h1>
+	</header>
+	<div id="container"></div>
+	<div class="center">
+		<select id="sortBy" onchange="updateList()">
+			<option value="Number">Number</option>
+			<option value="Name">Name</option>
+		</select>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>

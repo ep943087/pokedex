@@ -1,0 +1,61 @@
+body{
+	background-color: rgba(255,0,49);
+}
+
+header{
+	font-family: Pokemon;
+	color: yellow;
+}
+
+#container{
+	background-color: rgba(199,177,145);
+	width: 400px;
+	height: 350px;
+	border: 10px solid rgba(222,222,222);
+	overflow-y: scroll;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.pokeInfo{
+	background-color: rgba(232,216,197);
+	border: 4px solid rgba(193,184,153);
+	max-height: 150px;
+	min-height: 150px;
+	padding: 10px;
+}
+
+.pokeDesc{
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	max-height: 150px;
+	min-height: 150px;
+	border: 4px solid rgba(193,184,153);
+}
+
+.pokeStats{
+	margin-right: 20px;
+	max-width: 150px;
+	min-width: 150px;
+	padding: 10px;
+}
+
+.pokeimg{
+	width: 150px;
+	position: relative;
+	left: 0px;
+}
+
+.center{
+	text-align: center;
+}
+
+.pokeList{
+	font-size: 30px;
+}
+
+.pokeList:hover{
+	cursor: pointer;
+}
+
